@@ -38,7 +38,7 @@ const main = async () => {
         guardarData(tarea.listadoArr);
 
         //para pausar el programa cada vez que el usuario selecciona una opcion
-        await pausa();
+        (opt !== '0') && await pausa();
         
     } while (opt !== '0');
 
