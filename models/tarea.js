@@ -1,5 +1,6 @@
 const {v4: uuidv4} = require('uuid');
 
+//molde para poder guardar las tareas
 class Tarea {
     
     id = ''
